@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Futuris';
-    src: url('/fonts/Futuris/FuturisCyrillic.woff2') format('woff2'),
-    url('/fonts/Futuris/FuturisCyrillic.woff') format('woff');
+    src: url('../fonts/Futuris/FuturisCyrillic.woff2') format('woff2'),
+    url('../fonts/Futuris/FuturisCyrillic.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -16,7 +16,7 @@ body {
     font-size: 18px;
 }
 .face-img {
-    background: url("/img/123.png") no-repeat bottom;
+    background: url("../img/123.png") no-repeat bottom;
     background-size: cover;
     height: 760px;
     position: relative;
@@ -130,7 +130,7 @@ body {
 .slider-placeholder {
     height: 700px;
     background-size: cover;
-    background: url(/img/1.png) no-repeat center;
+    background: url(../img/1.png) no-repeat center;
 }
 
 .menu-center-container {
