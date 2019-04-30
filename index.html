@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Room home</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.0/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.0/easing/EasePack.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.0/TweenLite.min.js"></script>
+    <script src="/js/script.js"></script>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/fonts/slick.woff"/>-->
+</head>
+<body>
+<div class="container-fluid overflowHidden">
+    <div class="row face-img">
+        <div class="col-md-12 white-op">
+            <div class="text-center label">
+                <img src="/img/label.png" class="logo-img" alt="logo">
+            </div>
+        </div>
+        <ul class="soc-block" id="soc-top">
+            <li><a href="#"><img src="/img/instagram_image.png" alt="instagram"/></a></li>
+            <li><a href="#"><img src="/img/facebook_image.png" alt="facebook"/></a></li>
+            <li><a href="#"><img src="/img/telegram_image.png" alt="telegram"/></a></li>
+        </ul>
+    </div>
+    <div class="row menu-row" id="menu-main">
+        <div class="menu-center-container">
+            <div class="menu-logo-small">
+                <img src="/img/logo_s.png" alt="logo small">
+            </div>
+            <ul class="menu-lang-list">
+                <li class="lang-link active">UA</li>
+                <li><a href="/en" class="lang-link">EN</a></li>
+                <li><a href="/ru" class="lang-link">RU</a></li>
+            </ul>
+            <ul class="menu-list">
+                <li class="lang-link active">Головна</li>
+                <li><a href="/gallery" class="lang-link">Галерея</a></li>
+                <li>&nbsp;</li>
+                <li><a href="/about" class="lang-link">Про нас</a></li>
+                <li><a href="#contacts-anchor" class="lang-link contacts-click">Контакти</a></li>
+            </ul>
+            <div class="go-top">
+                <img src="/img/menu_exit_s.png" alt="go to top">
+            </div>
+        </div>
+    </div>
+    <div class="body-container">
+        <div class="col-md-12">
+            <div class="col-md-12 font-25">
+                Наше бачення <br/>
+                Ваших проектів
+            </div>
+            <div class="col-md-6 offset-md-6 mtop27 font18">
+                Працюючи над проектом, ми прагнемо до реалізації Вашого бачення домашнього затишку, комфорту, краси та
+                нових
+                тенденцій у дизайні інтерьєру. Результатом нашого співробітництва буде рельно продуманий, до найменших
+                дрібниць, житловий простір, який стане невід’ємною частиною Вашого життя.
+            </div>
+        </div>
+        <div class="col-md-6 text-center mtop27">
+            <button class="btn btn-black" id="btn-composition">Склад проекту</button>
+        </div>
+        <div class="col-md-12 mtop27">
+            <ul class="project-composition-list">
+                <li>
+                    <div class="composition-icon-wrap">
+                        <img src="/img/concept_icon.png" alt="concept_icon">
+                    </div>
+                    <h3 class="heading">КОНЦЕПТ ІНТЕР‘ЄРУ</h3>
+                    <span>Варіанти перепланування і розміщення меблевого наповнення, обговорення і<br/> розгляд побажань замовника щодо стилістичного і колористичного рішення.</span>
+                </li>
+                <li>
+                    <div class="composition-icon-wrap">
+                        <img src="/img/visualization_icon.png" alt="visualization_icon">
+                    </div>
+                    <h3 class="heading">ВІЗУАЛІЗАЦІЯ</h3>
+                    <span>Фотореалістична 3д візуалізація, яка создається нашими фахівцями, грунтуючись<br/> на концептуальній частини інтер'єру, а також виборі освітлення, оздоблювальних<br/> матеріалів і меблевого наповнення.</span>
+                </li>
+                <li>
+                    <div class="composition-icon-wrap">
+                        <img src="/img/blueprint_icon.png" alt="blueprint_icon">
+                    </div>
+                    <h3 class="heading">РАБОЧІ КРЕСЛЕННЯ</h3>
+                    <span>Склад креслень за якими в подальшому буде здійснюватися втілення даного інтер'єру групами Будівельної бригад. На яких вказані<br/> необхідні
+                        розміри зведених конструкцій, меблів, плани прокладки схем і систем електрики, плани підлогового і настінного<br/> покриття.</span>
+                </li>
+                <li>
+                    <div class="composition-icon-wrap">
+                        <img src="/img/blueprint_icon.png" alt="blueprint_icon">
+                    </div>
+                    <h3 class="heading">КОШТОРИС</h3>
+                    <span>Розрахунок (план), майбутніх витрат на реалізацію дизайн-проекту.</span>
+                </li>
+                <li>
+                    <div class="composition-icon-wrap">
+                        <img src="/img/supervisor_icon.png" alt="supervisor_icon">
+                    </div>
+                    <h3 class="heading">АВТОРСЬКИЙ НАГЛЯД</h3>
+                    <span>Контроль відповідної особи, за дотриманням в процесі будівництва вимог<br/> проектної документації.</span>
+                </li>
+            </ul>
+        </div>
+        <div class="offset-md-6 col-md-6">
+            <button class="btn btn-black" id="btn-stages">Етапи роботи</button>
+        </div>
+        <div class="col-md-12">
+            <ul class="project-stages-list">
+                <li>
+                    <div class="composition-icon-wrap">
+                        <div class="round-letter-wrap">
+                            <div class="round-letter">1</div>
+                        </div>
+                    </div>
+                    <span>Знайомство з замовником, зустріч з ним на обєкті, обговорення з клієнтом<br/> стилістичних і
+                    планувальних рішень на основі підібраних нами аналогів і<br/> прикладів від замовника (за бажанням).
+                    Обмір обекту.</span>
+                </li>
+                <li>
+                    <div class="composition-icon-wrap">
+                        <div class="round-letter-wrap">
+                            <div class="round-letter">2</div>
+                        </div>
+                    </div>
+                    <span>Презинтація замовнику варіантів планувальних рішень з розміщенням меблів створених на<br/> основі його
+                    переваг (3 варіанти) .Согласування одного з запропонованих варіантів з<br/> можливістю його коригуванням.
+                </span>
+                </li>
+                <li>
+                    <div class="composition-icon-wrap">
+                        <div class="round-letter-wrap">
+                            <div class="round-letter">3</div>
+                        </div>
+                    </div>
+                    <span>Обговорення та затвердження з замовником меблевого наповнення і оздоблювальних матеріалів.</span>
+                </li>
+                <li>
+                    <div class="composition-icon-wrap">
+                        <div class="round-letter-wrap">
+                            <div class="round-letter">4</div>
+                        </div>
+                    </div>
+                    <span>Презинтація замовнику тривимірних візуалізацій. Внесення необхідних коригувань, доопрацювання
+                    і<br/> узгодження фінальних зображень.</span>
+                </li>
+                <li>
+                    <div class="composition-icon-wrap">
+                        <div class="round-letter-wrap">
+                            <div class="round-letter">5</div>
+                        </div>
+                    </div>
+                    <span>Презентація замовнику повного дизайн-проекту який включає в себе: повний комплект креслень,
+                    за яким в подальшому будівельні <br/>бригади зможуть реалізувати даний дизайн-проект, підготовку
+                    кошторисної частини по оздоблювальним матеріалам і меблевому<br/> наповненню та комплект візуалізації.
+                </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row menu-row inactive" id="menu-bottom">
+        <div class="menu-center-container">
+            <div class="menu-logo-small">
+                <img src="/img/logo_s.png" alt="logo small">
+            </div>
+            <ul class="menu-lang-list">
+                <li><a href="/" class="lang-link">UA</a></li>
+                <li><a href="/en" class="lang-link">EN</a></li>
+                <li><a href="/ru" class="lang-link">RU</a></li>
+            </ul>
+            <ul class="menu-list">
+                <li class="lang-link active">Головна</li>
+                <li><a href="/gallery" class="lang-link">Галерея</a></li>
+                <li>&nbsp;</li>
+                <li><a href="/about" class="lang-link">Про нас</a></li>
+                <li><a href="#contacts-anchor" class="lang-link contacts-click">Контакти</a></li>
+            </ul>
+            <div class="go-top">
+                <img src="/img/menu_exit_s.png" alt="go to top">
+            </div>
+        </div>
+    </div>
+    <div class="neg-margins" id="bottom-slick">
+        <div><img src="img/1.png" alt="1"/></div>
+        <div><img data-lazy="img/12.png" src="" alt="2"/></div>
+        <div><img data-lazy="img/123.png" src="" alt="3"/> </div>
+    </div>
+    <div class="row gray-bg-canvas">
+        <div class="col-md-6 text-center" id="contacts-anchor">
+            <a id="contacts"><button class="btn btn-black">Як з нами зв'язатись?</button></a>
+            <div class="contacts-toggle hidden">Ну тут ваши контакти</div>
+        </div>
+        <div class="col-md-6 text-center">
+            <button class="btn btn-black">Порахувати мiй проект?</button>
+        </div>
+        <ul class="soc-block" id="soc-bottom">
+            <li><a href="#"><img src="/img/instagram_image.png" alt="instagram"/></a></li>
+            <li><a href="#"><img src="/img/facebook_image.png" alt="facebook"/></a></li>
+            <li><a href="#"><img src="/img/telegram_image.png" alt="telegram"/></a></li>
+        </ul>
+    </div>
+    <div class="bottom-black-line row"></div>
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+</body>
+</html>

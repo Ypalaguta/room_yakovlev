@@ -1,0 +1,268 @@
+@font-face {
+    font-family: 'Futuris';
+    src: url('/fonts/Futuris/FuturisCyrillic.woff2') format('woff2'),
+    url('/fonts/Futuris/FuturisCyrillic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    /*font-family: 'Futuris', Arial, sans-serif;*/
+    font-size: 16px;
+}
+.font18{
+    font-size: 18px;
+}
+.face-img {
+    background: url("/img/123.png") no-repeat bottom;
+    background-size: cover;
+    /*min-height: 760px;*/
+    min-height: 80vh;
+    position: relative;
+}
+
+.white-op {
+    background-color: rgba(255, 255, 255, 0.34);
+    height: 760px;
+    position: absolute;
+}
+
+.logo-img {
+    max-width: 100%;
+    margin-top: 275px;
+}
+
+.menu-list {
+    list-style: none;
+    width: 700px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid;
+    margin: 50px auto auto;
+    padding-left: 81px;
+}
+
+.menu-list li {
+    width: 19%;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.font-25 {
+    font-size: 25px;
+}
+
+.body-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.btn-black {
+    border-radius: 0px;
+    background-color: #000;
+    color: #fff;
+    font-size: 22px;
+    padding: 10px 48px;
+    font-family: Futuris, sans-serif;
+}
+
+.composition-icon-wrap {
+    height: 60px;
+    text-align: center;
+    border-bottom: 1px solid;
+    margin-bottom: 60px;
+}
+
+.composition-icon-wrap img {
+    max-height: 150%;
+    background-color: #fff;
+    padding: 0px 20px;
+}
+
+.project-composition-list,
+.project-stages-list {
+    padding-left: 0px;
+    height: 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+.project-composition-list li span,
+.project-stages-list li span{
+    /*padding: 0px 250px;*/
+    margin: 21px 0px;
+    text-align: center;
+    display: inline-block;
+}
+.project-composition-list li,
+.project-stages-list li {
+    list-style: none;
+    text-align: center;
+}
+
+.round-letter-wrap {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    margin: auto;
+}
+
+.round-letter {
+    position: absolute;
+    background: #000;
+    padding: 16px;
+    line-height: 0.575;
+    color: #fff;
+    font-size: 26px;
+    border-radius: 200px;
+    margin-left: 27px;
+    margin-top: 27px;
+}
+
+.gray-bg-canvas {
+    height: 500px;
+    background: #bebebe;
+    padding-top: 240px;
+    position: relative;
+}
+
+.slider-placeholder {
+    height: 700px;
+    background-size: cover;
+    background: url(/img/1.png) no-repeat center;
+}
+
+.menu-center-container {
+    margin: auto;
+    position: relative;
+}
+
+.menu-logo-small img {
+    max-width: 100%;
+}
+
+.menu-logo-small {
+    top: 5px;
+
+    position: absolute;
+    /*width: 50px;*/
+    width: 37px;
+    margin-left: -75px;
+    /*margin-top: 20px;*/
+}
+
+.menu-lang-list li {
+    display: inline-block;
+    list-style: none;
+}
+
+.menu-lang-list {
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 260px;
+}
+
+.go-top img {
+    max-width: 100%;
+}
+
+.go-top {
+    width: 50px;
+    position: absolute;
+    right: -67px;
+    /*top: 26px;*/
+    top: 0px;
+    cursor: pointer;
+}
+
+.menu-row {
+    margin-bottom: 50px;
+}
+
+.menu-row.inactive {
+    height: 95px;
+}
+
+.menu-row.inactive * {
+    display: none;
+}
+
+.menu-row.active {
+    position: fixed;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.95);
+    z-index: 99;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+#menu-main.active + .body-container {
+    margin-top: 144px;
+}
+
+.bottom-black-line {
+    height: 15px;
+    background-color: #000;
+}
+
+.soc-block li img {
+    max-width: 100%;
+}
+
+.soc-block li {
+    display: inline-block;
+    list-style: none;
+    width: 30px;
+    margin-right: 32px;
+}
+
+.soc-block {
+    position: absolute;
+    z-index: 2;
+}
+
+#soc-bottom{
+    bottom: 1px;
+    left: 10px;
+}
+#soc-top {
+    right: 1px;
+    bottom: 1px;
+}
+.lang-link, .lang-link:hover {
+    color: #000;
+}
+.lang-link.active {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.mtop27 {
+    margin-top: 27px;
+}
+.neg-margins {
+    margin: 0 -15px;
+    /*width: calc(100% - 30px);*/
+    height: 90vh;
+}
+.overflowHidden {
+    overflow: hidden;
+}
+.container-fluid.overflowHidden .slick-dotted.slick-slider{
+    margin-bottom: -6px;
+}
+.container-fluid.overflowHidden .slick-dots{
+    bottom: 25px;
+}
+.slick-prev.slick-arrow{
+    left: 10px;
+    z-index: 10;
+}
+.slick-next.slick-arrow{
+    right: 10px;
+    z-index: 10;
+}
+.hidden {
+    display: none;
+}

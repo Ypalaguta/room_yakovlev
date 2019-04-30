@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Futuris';
+    src: url('FuturisCyrillic.woff2') format('woff2'),
+        url('FuturisCyrillic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
